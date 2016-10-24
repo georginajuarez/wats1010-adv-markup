@@ -1,1 +1,82 @@
 /* Styles for the Advanced Markup assignment. */
+
+header {
+  text-align: center;
+  background-color: lavenderblush;
+  padding: 2em;
+  border-bottom: 5px solid black;
+}
+h1 {
+  font-size: 2.5em;
+}
+
+nav ul li {
+  display: inline;
+  padding-right: 2em;
+}
+
+a.active {
+  font-weight: bold;
+}
+
+
+aside {
+  background-color: lightslategray;
+  padding: 2em;
+}
+#sidebar { /* Added border would like to add social icons */
+  width: 250px;
+  margin: 2em;
+  padding: 1.5em;
+  border: 5px solid black;
+  line-height: 1.5em;
+  float: right;
+}
+dt {
+  font-weight: bold;
+}
+
+
+section {
+  background-color: lightgray;
+  padding: 2em;
+}
+#content p {
+  line-height: 1.5em;
+  text-align: justify;
+}
+ul.poem {
+  list-style-type: none;
+  line-height: 2em;
+}
+.bio-photo {
+  width: 250px;
+  margin: 3em;
+  float: left;
+}
+.bio-photo img {
+  border: inset;
+  border-width: 5px;
+}
+#selected_works {
+  line-height: 1.5em;
+}
+#selected_works caption {
+  padding: 2em 2em 2em 0;
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bold;
+}
+#selected_works th {
+  text-align: left;
+  padding-right: 2em;
+}
+footer {
+  background-color: lavenderblush;
+  border-top: 5px solid black;
+  padding: 2em;
+  text-align: center;
+}
+.bibliography {
+  list-style-type: none;
+}
